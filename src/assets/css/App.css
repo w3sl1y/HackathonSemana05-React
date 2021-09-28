@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+button {
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+    background:rgb(94, 164, 235);
+    border-radius: 10px;
+    padding:15px 140px;
+    color: white;
+}
+
+button.sinFondo{
+    background: none;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(75, 75, 75);
+    margin: 0 auto;
+}
+
+button.show{
+    background: #fff;
+    color: rgb(94, 164, 235);
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0 20px;
+    padding: 0;
+}
+
+
+input{
+   border: none;
+   padding: 10px 135px;
+   text-align: center;
+}
+
+h1.gray{
+    color:gray;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        display: flex;
+        margin: auto;
+        padding: auto;
+    }
+}
